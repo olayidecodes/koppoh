@@ -6,7 +6,7 @@
                 Our solutions for you
             </h2>
             <p data-aos="fade-right" data-aos-offset="200"
-                class="md:text-xl aos-init aos-animate">
+                class="md:text-xl aos-init aos-animate max-w-140">
                 With our digital solutions, you get everything you need in one place to succeed.
             </p>
 
