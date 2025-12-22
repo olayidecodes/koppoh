@@ -3,7 +3,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: var(--font-sans);
+  font-family: Satoshi, sans-serif;;
 }
 
 @theme {
@@ -13,3 +13,4 @@ html {
     "Liberation Mono", "Courier New", monospace;
   --font-bricolage: "Bricolage Grotesque", sans-serif;
 }
+
