@@ -3,7 +3,11 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: Satoshi, sans-serif;;
+  font-family: Satoshi, sans-serif;
+}
+
+p{
+  font-family: Satoshi, sans-serif;
 }
 
 @theme {

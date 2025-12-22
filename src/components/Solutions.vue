@@ -12,27 +12,27 @@
 
         </div>
         <div v-for="(program, index) in programs" :key="index"
-            class="flex flex-col md:flex-row justify-between gap-8 py-10 border-b border-gray-200">
+            class="w-full flex flex-col md:flex-row justify-between md:items-center gap-8 md:py-10 lg:px-20 pb-13 md:pb-30 md:border-b border-gray-200">
 
-            <div class="max-w-[8rem]">
-                <h3 class="uppercase text-xl font-bold text-gray-700">
+            <div class="md:max-w-[12rem]">
+                <h3 class="uppercase text-2xl font-bold text-gray-800 pb-4">
                     {{ program.title }}
                 </h3>
                 <ColorBar />
             </div>
 
-            <div class="max-w-xl">
-                <p class="text-sm leading-relaxed">
+            <div class="md:max-w-xl">
+                <p class="text-sm font-medium leading-6">
                 {{ program.description }}
                 </p>
             </div>
 
             <div>
                 <button :class="[
-                    'px-6 py-2 rounded-full text-sm font-medium transition',
+                    'py-3 w-35 rounded-full text-sm transition',
                     program.buttonText === 'Find Out More'
                         ? 'bg-green-600 text-white hover:bg-green-700'
-                        : 'bg-gray-200 text-gray-500 cursor-not-allowed'
+                        : 'bg-gray-200 text-white cursor-not-allowed'
                 ]">
                     {{ program.buttonText }}
                 </button>
