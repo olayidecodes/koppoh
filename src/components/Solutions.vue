@@ -12,8 +12,11 @@
 
         </div>
         <div v-for="(program, index) in programs" :key="index"
-            class="w-full flex flex-col md:flex-row justify-between md:items-center gap-8 md:py-10 lg:px-20 pb-13 md:pb-30 md:border-b border-gray-200">
-
+            class="w-full flex flex-col md:flex-row justify-between md:items-center gap-8 md:py-10 lg:px-20 pb-13 md:pb-30 md:border-b border-gray-200 aos-init aos-animate"
+            data-aos="zoom-in-up"
+            :data-aos-delay="program.delay"
+  :data-aos-offset="program.offset"
+            >
             <div class="md:max-w-[12rem]">
                 <h3 class="uppercase text-2xl font-bold text-gray-800 pb-4">
                     {{ program.title }}

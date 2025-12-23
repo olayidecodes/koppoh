@@ -2,7 +2,7 @@
   <footer class="bg-black sticky z-30 text-white">
     <div class="max-w-7xl mx-auto px-4 md:px-20 md:py-30 py-20">
 
-      <div class="grid grid-cols-12 md:grid-cols-12 gap-16">
+      <div class="w-full grid grid-cols-12 gap-8 md:gap-12">
 
           <div class="flex gap-2 text-xl font-bold col-span-12 md:col-span-7">
             <img src="/assets/KoppohLogoWhite.svg" alt="Koppoh" class="h-6 w-auto">

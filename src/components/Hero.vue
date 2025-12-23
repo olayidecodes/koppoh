@@ -4,9 +4,9 @@
   >
     <div class="flex flex-col items-start gap-10 max-w-[926px] mb-auto">
       <h1
-        class="text-[40px] md:text-6xl lg:text-8xl font-bricolage font-extrabold text-black leading-[110%] uppercase aos-init aos-animate"
         data-aos="fade-right"
         data-aos-delay="200"
+        class="relative text-[40px] md:text-6xl lg:text-8xl font-bricolage font-extrabold text-black leading-[110%] uppercase aos-init aos-animate"
       >
         Driving prosperity for African businesses
       </h1>
@@ -31,7 +31,7 @@
     
       <div class="md:max-w-[536px]">
         <p
-          class="text-base md:text-2xl leading-[150%] md:leading-[125%] aos-init aos-animate"
+          class="text-base md:text-[22px] leading-[150%] md:leading-[125%] aos-init aos-animate"
           data-aos="fade-right"
           data-aos-delay="400"
           data-aos-offset="-100"

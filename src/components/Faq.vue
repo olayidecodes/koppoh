@@ -3,7 +3,9 @@
     <div class="max-w-6xl px-4 md:px-20 flex flex-col gap-4 md:gap-10">
 
       <div>
-        <h2 class="uppercase font-bricolage text-4xl md:text-6xl font-extrabold leading-tight">
+        <h2 
+        data-aos="fade-right"
+        class="uppercase font-bricolage text-4xl md:text-6xl font-extrabold leading-tight aos-init aos-animate">
           Frequently asked question
         </h2>
       </div>
@@ -17,7 +19,9 @@
         <div
           v-for="(faq, index) in faqs"
           :key="index"
-          class="border-b border-gray-400 px-4 py-8"
+          class="border-b border-gray-400 px-4 py-8 aos-init aos-animate"
+          :data-aos-delay="index * 120"
+          data-aos="fade-right"
         >
           
           <button
