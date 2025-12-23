@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-black sticky z-30 text-white">
+  <footer class="bg-black sticky z-30 text-white overflow-x-hidden">
     <div class="max-w-7xl mx-auto px-4 md:px-20 md:py-30 py-20">
 
       <div class="w-full grid grid-cols-12 gap-8 md:gap-12">

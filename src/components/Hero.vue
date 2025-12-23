@@ -4,38 +4,31 @@
   >
     <div class="flex flex-col items-start gap-10 max-w-[926px] mb-auto">
       <h1
-        data-aos="fade-right"
-        data-aos-delay="200"
-        class="relative text-[40px] md:text-6xl lg:text-8xl font-bricolage font-extrabold text-black leading-[110%] uppercase aos-init aos-animate"
+        class="relative text-[40px] md:text-6xl lg:text-8xl font-bricolage font-extrabold text-black leading-[110%] uppercase opacity-0 translate-x-[-50px] animate-fade-slide-right"
+        style="animation-delay: 0.2s;"
       >
         Driving prosperity for African businesses
       </h1>
-      <div class="flex items-center gap-0">
+      <div class="flex items-center gap-0 translate-x-[-40px] ">
         <div
-          class="w-[46.67px] h-1 bg-[#2A2F9A] aos-init aos-animate"
-          data-aos="fade-right"
-          data-aos-delay="400"
+          class="w-[46.67px] h-1 bg-[#2A2F9A] opacity-0 animate-fade-slide-right"
+          style="animation-delay: 0.4s;"
         ></div>
         <div
-          class="w-[46.67px] h-1 bg-[#D9961E] aos-init aos-animate"
-          data-aos="fade-right"
-          data-aos-delay="300"
+          class="w-[46.67px] h-1 bg-[#D9961E] animate-fade-slide-right"
+          style="animation-delay: 0.3s;"
         ></div>
         <div
-          class="w-[46.67px] h-1 bg-[#0D8B1A] aos-init aos-animate"
-          data-aos="fade-right"
-          data-aos-delay="200"
+          class="w-[46.67px] h-1 bg-[#0D8B1A] animate-fade-slide-right"
+          style="animation-delay: 0.2s;"
         ></div>
       </div>
     </div>
     
       <div class="md:max-w-[536px]">
         <p
-          class="text-base md:text-[22px] leading-[150%] md:leading-[125%] aos-init aos-animate"
-          data-aos="fade-right"
-          data-aos-delay="400"
-          data-aos-offset="-100"
-          data-aos-once="true"
+          class="text-base md:text-[22px] leading-[150%] md:leading-[125%] opacity-0 translate-x-[-50px] animate-fade-slide-right"
+          style="animation-delay: 0.4s;"
         >
           Get the training, funding, visibility, and partners you need to build
           a Multi-Million Dollar Business.
@@ -43,4 +36,23 @@
       </div>
   </section>
 </template>
-<script></script>
+<script>
+
+</script>
+
+<style>
+@keyframes fade-slide-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(50px);
+  }
+}
+
+.animate-fade-slide-right {
+  animation: fade-slide-right 0.8s forwards;
+}
+</style>
